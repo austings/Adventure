@@ -16,4 +16,3 @@ Planned Additions:<br />
   8.combat (magic and melee)<br />
   9.quests<br />
   10.multiple world zones<br />
-![alt tag](https://github.com/austings/Adventure/blob/master/preview.png)
