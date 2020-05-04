@@ -1,0 +1,100 @@
+@GREETINGS@
+[Default]Hello.
+[Default]Hi.
+[Noble]Greetings.
+[Default]Good day.
+[Default]Good morning.
+[Default]Good afternoon.
+[Default]Good evening.
+[Default]I don't want to talk to you.
+
+@Tell me about yourself.@
+[Default]What did you want to know?
+
+@Do you have any work for me?@
+[Generate]QUEST
+
+@I'll do it.@
+[Default] Thank you!
+
+@I don't have time for this.@
+[Default] That is a shame.
+[Default] Don't waste my time.
+[Default] Then why ask?
+[Default] That's unfortunate.
+[Default] Well, let me know if you change your mind.
+
+
+@Tell me about this area.@
+[Default]This area is a test zone. So we call it Test Village.
+
+@Can you trade with me?@
+[Default]Take a look at my wares.
+
+@Who are you?@
+[Generate]WHORU
+
+@Where you are from?@
+[Generate]WHEREUFROM
+
+@What do you do?@
+[Generate]WHATUDO
+
+@What do you like?@
+[Generate]WHATULIK
+
+@What do you dislike?@
+[Generate]WHATUDISLIK
+
+@Do you have any family?@
+[Generate]DOHAVFAM
+
+@Do you have any advice?"@
+[Generate]ADVICE
+
+@Goodbye.@
+Goodbye.
+Farewell.
+Travel safe.
+Hmph.
+Good riddance.
+
+@ELDWIR@
+#1#Ehrm, hello. I would love to talk, but I am very busy.
+#1a#Just a moment of your time please, sir.
+#1a1#I'm sorry, I'm afraid I really must go. @END@
+#1b#I will leave you to your business.@END@
+#1c#I'm busy as well, your mother is still waiting for me. ##1
+#1c1#Wha- huh! How juvenile. @END@
+_____________________________________________________
+drafts
+@ALINA@
+Hello. Have you seen my husband Eldwir? He is always out on business.
+	No, I haven't.	
+	What does your husband do?
+	Who are you?
+	Is your husband usually gone long?
+@DOUGLAS@
+Hm, Howdy.
+	Nice to meet you, I'm @name@.
+	And what are you supposed to be?
+	
+@1001@
+#t#Hello
+#t1#Do you have a quest
+#t1t#Yes Please kill the ghost
+#t1t1#Ok
+#t1t2#No
+#t2#Do you have a sandwich
+#t2t#Yes Please kill a ghost for a sandwich
+#t2t1#Ok
+#t2t2#No
+
+//HOW TO ADD A LINE OF DIALOGUE
+Screen ~line 580- method 'checks'
+dialogue variable contains the response from the target NPC.
+
+//HOW TO ADD A QUEST
+Chat tree line 198
+
+	

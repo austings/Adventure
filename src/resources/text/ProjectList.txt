@@ -1,0 +1,56 @@
+bug list
+
+Creature
+-Pathfinding collisions with other creatures causes pathfinding to stop
+-Pathfinding randomly stops when reloaded from another map
+-Creatures from other map appear on newly loaded one
+
+Merchant
+-Selling items sometimes duplicates object in players inventory
+
+Combat
+-Dropped carcass items (wolf) do not properly display their description when info is selected from backpack
+
+Journal
+-Map, bugged at certain times does not accurately show map.. Probably movement is broken too. Suspect happens when moving left.
+
+Q-O-L
+00000000
+-Backpack is not undecorated and has no exit button.
+-Equipment screen is not undecorated and has no exit button.
+-Books are not undecorated and has no exit button.
+-Journal is not undecorated and has no exit button.
+-Merchants currently do not spawn with any gold
+-update map in journal to better grab tiles to draw
+
+Current Features
+-character creation
+-randomly generated zones
+-day/night cycle
+-equipment and items
+-books
+-npcs
+	-pathfinding
+	-dialogue
+	-merchants
+-basic combat
+-display options
+-music player
+-map
+
+Planned Features (in order of priority)
+-journal screen with character listings, spellbook, quests
+-jobs and race impact on character stats
+-level ups
+-quests
+-ai improvements
+	-dialogue options
+	-character roles
+	-pathfinding
+-More biomes
+-Improved combat
+-dungeons
+-Spells
+-character icon creator
+-crafting
+-more music
