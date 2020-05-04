@@ -1,19 +1,21 @@
 # Adventure
-a short roguelike game im working on<br />
+This was a short CRPG based off many roguelikes such as dwarf fortress, Cataclysm, and Liberal Crime Squad. I've worked on and off on it since 2016. I've mostly stopped working on it to instead focus on my upcoming game Artifical https://twoshoesdigitalmedia.com/ <br />
 
-Based off many roguelikes such as dwarf fortress, Cataclysm, and Liberal Crime Squad.<br />
-Features (so far):<br /><br />
-  1.2-d array gamespace<br />
-  2.player and npcs<br />
-  3.randomly generated modules and world (buildings)<br />
-  4.threaded day/night cycle<br />
-  5.pickup/drop items<br />
-  6.shops and dialog<br />
-  7.resolution options<br />
-  8.equip items<br />
-  9.read books<br />
-  10.basic combat<br />
-  11.make your own character
-Planned Additions:<br />
-  8.combat (magic and melee)<br />
-  9.quests<br />
+The Game features: 
+1) A randomly generated world with forests and cities. Buildings and objects in these worldspaces are also randomly placed with random NPCS and items. A Map updates as you visit these locations
+2) A primitive character customization system where you can select your background and stats
+3) A primitive combat system to fight monsters and collect their loot
+4) An equipment and inventory system with consumables and books
+5) A threaded day/night system 
+6) Buy and sell items to NPCs
+Planned additions:
+7) Quest System
+8) Magic
+9) Dungeons
+
+
+![alt tag](https://github.com/austings/Adventure/blob/master/pics/preview.png)
+![alt tag](https://github.com/austings/Adventure/blob/master/pics/preview2.png)
+![alt tag](https://github.com/austings/Adventure/blob/master/pics/preview3.png)
+
+
