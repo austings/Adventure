@@ -8,7 +8,7 @@ The Game features:
 4) An equipment and inventory system with consumables and books
 5) A threaded day/night system 
 6) Buy and sell items to NPCs
-7) Resolution options and settings
+7) Resolution options and settings <br>
 Planned additions:
 7) Quest System
 8) Magic
